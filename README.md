@@ -4,5 +4,5 @@ CSSCraft is a public domain project that brings Minecraft-themed elements to you
 # TODO List:
 * Standard Galactic Alphabet
 * Icons
-** Shapless Recipe
-** Furnace/Cooking
+..* Shapless Recipe
+..* Furnace/Cooking
