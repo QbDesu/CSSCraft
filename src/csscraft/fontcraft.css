@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Fontcraft';
+  src:  url('fonts/Fontcraft.eot?o9udcz');
+  src:  url('fonts/Fontcraft.eot?o9udcz#iefix') format('embedded-opentype'),
+    url('fonts/Fontcraft.ttf?o9udcz') format('truetype'),
+    url('fonts/Fontcraft.woff?o9udcz') format('woff'),
+    url('fonts/Fontcraft.svg?o9udcz#Fontcraft') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mc-icon-"], [class*=" mc-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Fontcraft' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mc-icon-axe:before {
+  content: "\e900";
+}
+.mc-icon-bucket:before {
+  content: "\e901";
+}
+.mc-icon-bucket-outline:before {
+  content: "\e902";
+}
+.mc-icon-crafting-arrow:before {
+  content: "\e903";
+}
+.mc-icon-crafting-arrow-outline:before {
+  content: "\e904";
+}
+.mc-icon-crafting-shapeless:before {
+  content: "\e905";
+}
+.mc-icon-crafting-shapeless-outline:before {
+  content: "\e906";
+}
+.mc-icon-flame:before {
+  content: "\e907";
+}
+.mc-icon-flame-furnace:before {
+  content: "\e908";
+}
+.mc-icon-flame-outline:before {
+  content: "\e909";
+}
+.mc-icon-hoe:before {
+  content: "\e90a";
+}
+.mc-icon-ingot:before {
+  content: "\e90b";
+}
+.mc-icon-ingot-outline:before {
+  content: "\e90c";
+}
+.mc-icon-nugget:before {
+  content: "\e90d";
+}
+.mc-icon-nugget-outline:before {
+  content: "\e90e";
+}
+.mc-icon-pickaxe:before {
+  content: "\e90f";
+}
+.mc-icon-redstone-dust:before {
+  content: "\e910";
+}
+.mc-icon-redstone-dust-outline:before {
+  content: "\e911";
+}
+.mc-icon-spade:before {
+  content: "\e912";
+}
+.mc-icon-sword:before {
+  content: "\e913";
+}
+

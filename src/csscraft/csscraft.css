@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'Pixl';
-  src: url(fonts/Pixl.ttf);
-}
-  
 .mc-gui{
     background-color: #c6c6c6;
     border: 16px solid;
-    border-image: url(images/mc-gui-border-48x48.png) 16 repeat;
+    border-image: url(images/borders/mc-gui-border-48x48.png) 16 repeat;
     background-clip: padding-box;
 }
 
@@ -14,7 +9,7 @@
     display: inline-block;
     background-color: #8b8b8b;
     border: 2px solid;
-    border-image: url(images/mc-slot-border-36x36.png) 2 repeat;
+    border-image: url(images/borders/mc-slot-border-36x36.png) 2 repeat;
     background-clip: padding-box;
 }
 
@@ -26,7 +21,7 @@
     background-color: #110210;
     background-clip: padding-box;
     border: 4px solid;
-    border-image: url(images/mc-tooltip-border-12x12.png) 4 repeat;
+    border-image: url(images/borders/mc-tooltip-border-12x12.png) 4 repeat;
 }
 
 .mc-textbox{
@@ -34,9 +29,9 @@
     padding-left: 2px;
     font-family: Pixl;
     color: #fff;
-    background: url(images/mc-textbox-background-32x32.png) repeat;
+    background: url(images/backgrounds/mc-textbox-background-32x32.png) repeat;
     border: 2px solid;
-    border-image: url(images/mc-textbox-border-36x36.png) 2 repeat;
+    border-image: url(images/borders/mc-textbox-border-18x18.png) 2 repeat;
     background-clip: padding-box;
 }
 
@@ -44,15 +39,15 @@
     text-shadow: .1em .1em #333;
     font-family: Pixl;
     color: #fff;
-    background: url(images/mc-button-background-24x24.png) repeat;
+    background: url(images/backgrounds/mc-button-background-24x24.png) repeat;
     border: 6px solid;
-    border-image: url(images/mc-button-border-36x36.png) 6 repeat;
+    border-image: url(images/borders/mc-button-border-36x36.png) 6 repeat;
     background-clip: padding-box;
 }
 
 .mc-button:hover{
-    background: url(images/mc-button-hover-background-24x24.png) repeat;
-    border-image: url(images/mc-button-hover-border-36x36.png) 6 repeat;
+    background: url(images/backgrounds/mc-button-hover-background-24x24.png) repeat;
+    border-image: url(images/borders/mc-button-hover-border-36x36.png) 6 repeat;
 }
 
 .mc-grid-2x2{
@@ -74,22 +69,39 @@ img.mc-item{
     image-rendering: pixelated;
 }
 
-.mc-crafting-arrow{
-    display: inline-block;
-    background-image: url(images/mc-crafting-arrow.png);
-    height: 30px;
-    width: 44px;
+
+/*ICONS*/
+.mc-icon{
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.center-vertical{
-    display: flex;
-    align-items: center;
+.mc-icon-xs{ font-size: .25em; }
+.mc-icon-sm{ font-size: .5em; }
+.mc-icon-lg{ font-size: 2em; }
+.mc-icon-xl{ font-size: 4em; }
+
+.mc-icon-gui{ color: #8b8b8b; }
+
+
+/*FONTS*/
+@font-face {
+  font-family: 'Pixl';
+  src: url(fonts/Pixl.ttf);
 }
 
-.pixelated{
-    image-rendering: pixelated;
+@font-face {
+  font-family: 'Standard Galactic Alphabet';
+  src: url(fonts/Standard Galactic Alphabet.ttf);
+}
+
+.pixl{ font-family: Pixl; }
+
+.galactic{ font-family: 'Standard Galactic Alphabet'; }
+
+.mc-enchanted{
+	font-family: 'Standard Galactic Alphabet';
+	color: #70ff50;
 }
 
 /*MC BLOCK*/
@@ -107,6 +119,14 @@ img.mc-item{
     margin:8px;
 }
 
-.mc-block-face-top{   transform: rotateX( 60deg) rotateZ( 45deg) translateZ( 8px );}
-.mc-block-face-left{  transform: rotateX(-30deg) rotateY(-45deg) translateZ( 8px );}
-.mc-block-face-right{ transform: rotateX(-30deg) rotateY( 45deg) translateZ( 8px );}
+.mc-block-face-top{   transform: rotateX( 60deg) rotateZ( 45deg) translateZ( 8px ); }
+.mc-block-face-left{  transform: rotateX(-30deg) rotateY(-45deg) translateZ( 8px ); }
+.mc-block-face-right{ transform: rotateX(-30deg) rotateY( 45deg) translateZ( 8px ); }
+
+/*MISC*/
+.center-vertical{
+    display: flex;
+    align-items: center;
+}
+
+.pixelated{ image-rendering: pixelated; }
