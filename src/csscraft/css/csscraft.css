@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Pixl;
+  src: url("../fonts/Pixl.ttf") format("truetype"); }
+@font-face {
+  font-family: Standard Galactic Alphabet;
+  src: url("../fonts/Standard Galactic Alphabet.ttf") format("truetype"); }
+.pixl {
+  font-family: Pixl; }
+
+.galactic {
+  font-family: Standard Galactic Alphabet; }
+
+.mc-enchanted {
+  font-family: Standard Galactic Alphabet;
+  color: #70ff50; }
+
+.mc-textbox {
+  text-shadow: 0.1em 0.1em #333;
+  padding-left: 2px;
+  font-family: Pixl;
+  color: #fff;
+  background: url("../images/backgrounds/mc-textbox-background-32x32.png") repeat;
+  border: 2px solid;
+  border-image: url("../images/borders/mc-textbox-border-18x18.png") 2 repeat;
+  background-clip: padding-box; }
+
+.mc-button {
+  text-shadow: 0.1em 0.1em #333;
+  font-family: Pixl;
+  color: #fff;
+  background: url("../images/backgrounds/mc-button-background-24x24.png") repeat;
+  border: 6px solid;
+  border-image: url("../images/borders/mc-button-border-36x36.png") 6 repeat;
+  background-clip: padding-box; }
+
+.mc-button:hover {
+  background: url("../images/backgrounds/mc-button-hover-background-24x24.png") repeat;
+  border-image: url("../images/borders/mc-button-hover-border-36x36.png") 6 repeat; }
+
+.mc-icon {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.mc-icon-xs {
+  font-size: 0.25em; }
+
+.mc-icon-sm {
+  font-size: 0.5em; }
+
+.mc-icon-lg {
+  font-size: 2em; }
+
+.mc-icon-xl {
+  font-size: 4em; }
+
+.mc-icon-gui {
+  color: #8b8b8b; }
+
+.mc-slot {
+  display: inline-block;
+  background-color: #8b8b8b;
+  border: 2px solid;
+  border-image: url("../images/borders/mc-slot-border-36x36.png") 2 repeat;
+  background-clip: padding-box; }
+
+.mc-grid-2x2 {
+  width: 72px;
+  font-size: 0px;
+  word-wrap: break-word; }
+
+.mc-grid-3x3 {
+  width: 108px;
+  font-size: 0px;
+  word-wrap: break-word; }
+
+img.mc-item {
+  height: 32px;
+  width: 32px;
+  display: block;
+  image-rendering: pixelated; }
+
+.mc-block {
+  perspective: 256;
+  height: 32px;
+  width: 32px;
+  perspective-origin: 50% 50%; }
+
+.mc-block-face {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  margin: 8px; }
+
+.mc-block-face-top {
+  transform: rotateX(60deg) rotateZ(45deg) translateZ(8px); }
+
+.mc-block-face-left {
+  transform: rotateX(-30deg) rotateY(-45deg) translateZ(8px); }
+
+.mc-block-face-right {
+  transform: rotateX(-30deg) rotateY(45deg) translateZ(8px); }
+
+.mc-gui {
+  background-color: #c6c6c6;
+  border: 16px solid;
+  border-image: url("../images/borders/mc-gui-border-48x48.png") 16 repeat;
+  background-clip: padding-box; }
+
+.mc-tooltip {
+  text-shadow: 0.1em 0.1em #333;
+  display: inline-block;
+  font-family: Pixl;
+  color: #fff;
+  background-color: #110210;
+  background-clip: padding-box;
+  border: 4px solid;
+  border-image: url("../images/borders/mc-tooltip-border-12x12.png") 4 repeat; }
+
+.center-vertical {
+  display: flex;
+  align-items: center; }
+
+.pixelated {
+  image-rendering: pixelated; }
+
+/*# sourceMappingURL=csscraft.css.map */
