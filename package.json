@@ -1,0 +1,35 @@
+{
+  "name": "csscraft",
+  "version": "1.0.0-beta",
+  "description": "Public Domain Project for Minecraft-Themed Web Pages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necr0/CSSCraft.git"
+  },
+  "keywords": [
+    "css",
+    "minecraft",
+    "style",
+    "webpage"
+  ],
+  "author": "Necro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Necr0/CSSCraft/issues"
+  },
+  "homepage": "https://github.com/Necr0/CSSCraft#readme",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

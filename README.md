@@ -27,7 +27,6 @@ Even if attribution is not mandatory some credit would still be nice.
 #### TODO List:
 * Animated Icons (Furnace Flame, Progress Arrow)
 * Bootstrap 4 Tooltip Integration
-* Compile for Distribution
 
 #### Resources Used:
 * [Fontstruct](http://fontstruct.com)
