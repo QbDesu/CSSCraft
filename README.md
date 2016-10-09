@@ -3,7 +3,8 @@
 CSSCraft is a public domain project that brings Minecraft-themed elements to your html web page. None of the textures are actually from Minecraft but Minecraft-style recreations. It is written with CSS3 and will most likely not work properly with browsers that do not support CSS3.
 Even if attribution is not mandatory some credit would still be nice.
 
-![](PREVIEW.png)
+![](PREVIEW.png)  
+You can also have a look at the [Live Preview](https://necr0.github.io/CSSCraft/).
 
 #### Features
 * Div Styles
