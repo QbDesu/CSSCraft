@@ -8,17 +8,17 @@ You can also have a look at the [Live Preview](https://necr0.github.io/CSSCraft/
 
 #### Features
 * Div Styles
- * Tooltip (.mc-tooltip)
- * Slot (.mc-slot)
- * Gui (.mc-gui)
+* * Tooltip (.mc-tooltip)
+* * Slot (.mc-slot)
+* * Gui (.mc-gui)
 * Form Elements
- * Textbox (.mc-textbox)
- * Button (.mc-button)
+* * Textbox (.mc-textbox)
+* * Button (.mc-button)
 * Wrapping/Alignment
- * 2x2 Slots (.mc-grid-2x2)
- * 3x3 Slots (.mc-grid-3x3)
- * Item (.mc-item)
- * Inline Center Vertical (.center-vertical)
+* * 2x2 Slots (.mc-grid-2x2)
+* * 3x3 Slots (.mc-grid-3x3)
+* * Item (.mc-item)
+* * Inline Center Vertical (.center-vertical)
 * Block-Rendering from 2D-Images (.mc-block/.mc-block-face-[top/left/right])
 * Public Domain Pixel Font (Pixl/.pixl)
 * Public Domain Standard Glactic Alphabet Font (Standard Galactic Alphabet/.galactic)
