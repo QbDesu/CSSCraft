@@ -1,10 +1,16 @@
 @font-face {
+  font-family: Pixl2;
+  src: url("../fonts/Pixl2.ttf") format("truetype"); }
+@font-face {
   font-family: Pixl;
   src: url("../fonts/Pixl.ttf") format("truetype"); }
 @font-face {
   font-family: Standard Galactic Alphabet;
   src: url("../fonts/Standard Galactic Alphabet.ttf") format("truetype"); }
 .pixl {
+  font-family: Pixl2; }
+
+.pixl-legacy {
   font-family: Pixl; }
 
 .galactic {
@@ -26,7 +32,7 @@
 
 .mc-button {
   text-shadow: 0.1em 0.1em #333;
-  font-family: Pixl;
+  font-family: Pixl2;
   color: #fff;
   background: url("../images/backgrounds/mc-button-background-24x24.png") repeat;
   border: 6px solid;
@@ -118,7 +124,7 @@ img.mc-item {
 .mc-tooltip {
   text-shadow: 0.1em 0.1em #333;
   display: inline-block;
-  font-family: Pixl;
+  font-family: Pixl2;
   color: #fff;
   background-color: #110210;
   background-clip: padding-box;
